@@ -12,3 +12,11 @@ https://pypi.org/project/pyahocorasick/
 
 try to write concise and modular code
 do not use any other python package other than the python default and bokeh/matplotlib/numpy/pandas
+
+
+# Pytorch practice 1
+use the HeLa_200ng_1_20221004214655.pin file, split randomly for 80/20% training/testing
+pytorch, first thing, create a peptide classifier
+will be able to differentiate forward and reverse sequence based on hyperscore
+you can use all the numbers from column exp_mass till peptide_length to predict the label column
+the training target is about 1% error rate
